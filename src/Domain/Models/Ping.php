@@ -1,6 +1,6 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Domain\Models;
+namespace :uc:vendor\:uc:package\Domain\Models;
 
 use Eloquent;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -9,10 +9,10 @@ use Illuminate\Notifications\DatabaseNotification;
 use Illuminate\Notifications\DatabaseNotificationCollection;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Carbon;
-use :lc:vendor\:uc:package\Infra\Database\Factories\PingFactory;
+use :uc:vendor\:uc:package\Infra\Database\Factories\PingFactory;
 
 /**
- * :lc:vendor\:uc:package\Domain\Models\Ping
+ * :uc:vendor\:uc:package\Domain\Models\Ping
  *
  * @property int $id
  * @property string $ip

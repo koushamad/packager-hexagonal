@@ -1,12 +1,12 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Infra\Http\Middleware;
+namespace :uc:vendor\:uc:package\Infra\Http\Middleware;
 
 use Closure;
 
 /**
  * Class IsPartner
- * @package :lc:vendor\:uc:package\Infra\Http\Middleware
+ * @package :uc:vendor\:uc:package\Infra\Http\Middleware
  */
 class IsPartner
 {

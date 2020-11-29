@@ -1,10 +1,10 @@
 <?php
 
-namespace :lc:vendor\:uc:package;
+namespace :uc:vendor\:uc:package;
 
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
-use :lc:vendor\:uc:package\Application\Listeners\PingListener;
-use :lc:vendor\:uc:package\Domain\Events\PingEvent;
+use :uc:vendor\:uc:package\Application\Listeners\PingListener;
+use :uc:vendor\:uc:package\Domain\Events\PingEvent;
 
 class :uc:packageEventServiceProvider extends ServiceProvider
 {
@@ -20,7 +20,7 @@ class :uc:packageEventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $subscribe = [
-        ':lc:vendor\:uc:package\Application\Listeners\EventSubscriber',
+        ':uc:vendor\:uc:package\Application\Listeners\EventSubscriber',
     ];
 
     /**

@@ -1,15 +1,15 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Application\Services;
+namespace :uc:vendor\:uc:package\Application\Services;
 
-use :lc:vendor\:uc:package\Domain\Contracts\Repositories\PingRepositoryContract;
-use :lc:vendor\:uc:package\Domain\Contracts\Services\PingServiceContract;
-use :lc:vendor\:uc:package\Domain\Models\Ping;
+use :uc:vendor\:uc:package\Domain\Contracts\Repositories\PingRepositoryContract;
+use :uc:vendor\:uc:package\Domain\Contracts\Services\PingServiceContract;
+use :uc:vendor\:uc:package\Domain\Models\Ping;
 use PingWriteException;
 
 /**
  * Class PingService
- * @package :lc:vendor\:uc:package\Application\Services
+ * @package :uc:vendor\:uc:package\Application\Services
  */
 class PingService implements PingServiceContract
 {

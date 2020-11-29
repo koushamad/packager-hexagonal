@@ -1,13 +1,13 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Domain\Contracts\Services;
+namespace :uc:vendor\:uc:package\Domain\Contracts\Services;
 
-use :lc:vendor\:uc:package\Domain\Models\Ping;
+use :uc:vendor\:uc:package\Domain\Models\Ping;
 use PingWriteException;
 
 /**
  * Interface PingServiceContract
- * @package :lc:vendor\:uc:package\Domain\Service
+ * @package :uc:vendor\:uc:package\Domain\Service
  */
 interface PingServiceContract
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Application\Jobs;
+namespace :uc:vendor\:uc:package\Application\Jobs;
 
-use :lc:vendor\:uc:package\Domain\Contracts\Services\PingServiceContract;
+use :uc:vendor\:uc:package\Domain\Contracts\Services\PingServiceContract;
 
 class PingJob extends BaseJob
 {

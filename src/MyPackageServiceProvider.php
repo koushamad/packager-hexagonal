@@ -1,15 +1,15 @@
 <?php
 
-namespace :lc:vendor\:uc:package;
+namespace :uc:vendor\:uc:package;
 
 use Illuminate\Support\ServiceProvider;
-use :lc:vendor\:uc:package\Application\Services\:uc:packageService;
-use :lc:vendor\:uc:package\Application\Services\PingService;
-use :lc:vendor\:uc:package\Infra\Console\PingCommand;
+use :uc:vendor\:uc:package\Application\Services\:uc:packageService;
+use :uc:vendor\:uc:package\Application\Services\PingService;
+use :uc:vendor\:uc:package\Infra\Console\PingCommand;
 
 /**
  * Class :uc:packageServiceProvider
- * @package :lc:vendor\:uc:package
+ * @package :uc:vendor\:uc:package
  */
 class :uc:packageServiceProvider extends ServiceProvider
 {

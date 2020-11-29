@@ -1,14 +1,14 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Tests\Features\Console;
+namespace :uc:vendor\:uc:package\Tests\Features\Console;
 
-use :lc:vendor\:uc:package\Tests\FeatureTestCase;
+use :uc:vendor\:uc:package\Tests\FeatureTestCase;
 use TiMacDonald\Log\LogFake;
 use Illuminate\Support\Facades\Log;
 
 /**
  * Class PingConsoleTest
- * @package :lc:vendor\:uc:package\Tests\Features\Console
+ * @package :uc:vendor\:uc:package\Tests\Features\Console
  */
 class PingConsoleTest extends FeatureTestCase
 {

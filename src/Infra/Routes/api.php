@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use :lc:vendor\:uc:package\Infra\Http\Controllers\PingController;
-use :lc:vendor\:uc:package\Infra\Http\Middleware\IsPartner;
+use :uc:vendor\:uc:package\Infra\Http\Controllers\PingController;
+use :uc:vendor\:uc:package\Infra\Http\Middleware\IsPartner;
 
 /*
 |--------------------------------------------------------------------------

@@ -1,15 +1,15 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Application\Listeners;
+namespace :uc:vendor\:uc:package\Application\Listeners;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
-use :lc:vendor\:uc:package\Application\Jobs\PingJob;
-use :lc:vendor\:uc:package\Domain\Events\PingEvent;
+use :uc:vendor\:uc:package\Application\Jobs\PingJob;
+use :uc:vendor\:uc:package\Domain\Events\PingEvent;
 use Log;
 
 /**
  * Class PingListener
- * @package :lc:vendor\:uc:package\Application\Listeners
+ * @package :uc:vendor\:uc:package\Application\Listeners
  */
 class PingListener implements ShouldQueue
 {

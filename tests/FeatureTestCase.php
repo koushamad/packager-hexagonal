@@ -1,16 +1,16 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Tests;
+namespace :uc:vendor\:uc:package\Tests;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use :lc:vendor\:uc:package\:uc:packageServiceProvider;
+use :uc:vendor\:uc:package\:uc:packageServiceProvider;
 use Laravel\Telescope\Storage\DatabaseEntriesRepository;
 use Orchestra\Testbench\TestCase;
 
 /**
  * Class FeatureTestCase
- * @package :lc:vendor\:uc:package\Tests
+ * @package :uc:vendor\:uc:package\Tests
  */
 class FeatureTestCase extends TestCase
 {

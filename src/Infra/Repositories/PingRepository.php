@@ -1,9 +1,9 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Infra\Repositories;
+namespace :uc:vendor\:uc:package\Infra\Repositories;
 
-use :lc:vendor\:uc:package\Domain\Contracts\Repositories\PingRepositoryContract;
-use :lc:vendor\:uc:package\Domain\Models\Ping;
+use :uc:vendor\:uc:package\Domain\Contracts\Repositories\PingRepositoryContract;
+use :uc:vendor\:uc:package\Domain\Models\Ping;
 use PingWriteException;
 
 /**

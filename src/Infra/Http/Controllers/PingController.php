@@ -1,14 +1,14 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Infra\Http\Controllers;
+namespace :uc:vendor\:uc:package\Infra\Http\Controllers;
 
-use :lc:vendor\:uc:package\Domain\Contracts\Services\PingServiceContract;
-use :lc:vendor\:uc:package\Infra\Http\Requests\PingRequest;
+use :uc:vendor\:uc:package\Domain\Contracts\Services\PingServiceContract;
+use :uc:vendor\:uc:package\Infra\Http\Requests\PingRequest;
 use PingWriteException;
 
 /**
  * Class PingController
- * @package :lc:vendor\:uc:package\Infra\Http\Controllers
+ * @package :uc:vendor\:uc:package\Infra\Http\Controllers
  */
 class PingController extends BaseController
 {

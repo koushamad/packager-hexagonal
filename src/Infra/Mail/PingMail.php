@@ -1,16 +1,16 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Infra\Mail;
+namespace :uc:vendor\:uc:package\Infra\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
-use :lc:vendor\:uc:package\Domain\Models\Ping;
+use :uc:vendor\:uc:package\Domain\Models\Ping;
 
 /**
  * Class PingMail
- * @package :lc:vendor\:uc:package\Infra\Mail
+ * @package :uc:vendor\:uc:package\Infra\Mail
  */
 class PingMail extends Mailable
 {

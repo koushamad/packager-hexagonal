@@ -1,6 +1,6 @@
 <?php
 
-use :lc:vendor\:uc:package\Domain\Models\Ping;
+use :uc:vendor\:uc:package\Domain\Models\Ping;
 
 /**
  * Class PingWriteException

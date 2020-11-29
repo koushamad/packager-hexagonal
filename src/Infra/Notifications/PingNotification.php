@@ -1,12 +1,12 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Infra\Notifications;
+namespace :uc:vendor\:uc:package\Infra\Notifications;
 
 use Illuminate\Notifications\Messages\SlackMessage;
 
 /**
  * Class PingNotification
- * @package :lc:vendor\:uc:package\Infra\Notifications
+ * @package :uc:vendor\:uc:package\Infra\Notifications
  */
 class PingNotification extends BaseNotification
 {

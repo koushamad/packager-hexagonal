@@ -1,12 +1,12 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Infra\Http\Requests;
+namespace :uc:vendor\:uc:package\Infra\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
 /**
  * Class Ping
- * @package :lc:vendor\:uc:package\Infra\Http\Requests
+ * @package :uc:vendor\:uc:package\Infra\Http\Requests
  */
 class PingRequest extends FormRequest
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Infra\Database\Seeders;
+namespace :uc:vendor\:uc:package\Infra\Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use :lc:vendor\:uc:package\Domain\Models\Ping;
+use :uc:vendor\:uc:package\Domain\Models\Ping;
 
 /**
  * Class :uc:packageDatabaseSeeder
- * @package :lc:vendor\:uc:package\Infra\Database\Seeders
+ * @package :uc:vendor\:uc:package\Infra\Database\Seeders
  */
 class :uc:packageDatabaseSeeder extends Seeder
 {

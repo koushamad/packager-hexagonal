@@ -1,13 +1,13 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Infra\Console;
+namespace :uc:vendor\:uc:package\Infra\Console;
 
 use Illuminate\Console\Command;
-use :lc:vendor\:uc:package\Domain\Events\PingEvent;
+use :uc:vendor\:uc:package\Domain\Events\PingEvent;
 
 /**
  * Class PingCommand
- * @package :lc:vendor\:uc:package\Infra\Console
+ * @package :uc:vendor\:uc:package\Infra\Console
  */
 class PingCommand extends Command
 {

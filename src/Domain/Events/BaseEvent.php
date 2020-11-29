@@ -1,6 +1,6 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Domain\Events;
+namespace :uc:vendor\:uc:package\Domain\Events;
 
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Foundation\Events\Dispatchable;
@@ -8,7 +8,7 @@ use Illuminate\Queue\SerializesModels;
 
 /**
  * Class BaseEvent
- * @package :lc:vendor\:uc:package\Domain\Events
+ * @package :uc:vendor\:uc:package\Domain\Events
  */
 abstract class BaseEvent
 {

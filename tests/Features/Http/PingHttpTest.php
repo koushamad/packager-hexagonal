@@ -1,13 +1,13 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Tests\Features\Http;
+namespace :uc:vendor\:uc:package\Tests\Features\Http;
 
 use Illuminate\Http\Response;
-use :lc:vendor\:uc:package\Tests\FeatureTestCase;
+use :uc:vendor\:uc:package\Tests\FeatureTestCase;
 
 /**
  * Class PingTest
- * @package :lc:vendor\:uc:package\Tests\Features
+ * @package :uc:vendor\:uc:package\Tests\Features
  */
 class PingHttpTest extends FeatureTestCase
 {

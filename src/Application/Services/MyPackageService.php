@@ -1,12 +1,12 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Application\Services;
+namespace :uc:vendor\:uc:package\Application\Services;
 
-use :lc:vendor\:uc:package\Domain\Contracts\Services\PingServiceContract;
+use :uc:vendor\:uc:package\Domain\Contracts\Services\PingServiceContract;
 
 /**
  * Class :uc:package
- * @package :lc:vendor\:uc:package\Application\RPC
+ * @package :uc:vendor\:uc:package\Application\RPC
  */
 class :uc:packageService
 {

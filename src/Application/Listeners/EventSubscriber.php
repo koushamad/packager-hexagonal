@@ -1,13 +1,13 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Application\Listeners;
+namespace :uc:vendor\:uc:package\Application\Listeners;
 
-use :lc:vendor\:uc:package\Domain\Events\PingEvent;
+use :uc:vendor\:uc:package\Domain\Events\PingEvent;
 use Log;
 
 /**
  * Class EventSubscriber
- * @package :lc:vendor\:uc:package\Application\Listeners
+ * @package :uc:vendor\:uc:package\Application\Listeners
  */
 class EventSubscriber
 {

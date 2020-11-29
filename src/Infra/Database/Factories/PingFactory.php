@@ -1,9 +1,9 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Infra\Database\Factories;
+namespace :uc:vendor\:uc:package\Infra\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use :lc:vendor\:uc:package\Domain\Models\Ping;
+use :uc:vendor\:uc:package\Domain\Models\Ping;
 
 class PingFactory extends Factory
 {

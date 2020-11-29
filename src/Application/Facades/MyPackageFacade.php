@@ -1,12 +1,12 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Application\Facades;
+namespace :uc:vendor\:uc:package\Application\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Class :uc:package
- * @package :lc:vendor\:uc:package\Application\Facades
+ * @package :uc:vendor\:uc:package\Application\Facades
  */
 class :uc:packageFacade extends Facade
 {

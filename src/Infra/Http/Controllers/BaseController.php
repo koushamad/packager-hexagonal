@@ -1,6 +1,6 @@
 <?php
 
-namespace :lc:vendor\:uc:package\Infra\Http\Controllers;
+namespace :uc:vendor\:uc:package\Infra\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
