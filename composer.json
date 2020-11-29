@@ -1,12 +1,12 @@
 {
     "name": ":lc:vendor/:lc:package",
     "description": ":package_description",
-    "license": "MIT",
+    "license": ":license",
     "authors": [
         {
-            "name": "kousha",
-            "email": "kousha.ghodsizad@gmail.com",
-            "homepage": "https://github.com/I-Reven"
+            "name": ":author_name",
+            "email": ":author_email",
+            "homepage": ":author_homepage"
         }
     ],
     "homepage": "https://github.com/:lc:vendor/:lc:package",

@@ -33,16 +33,16 @@ Please see [contributing.md](contributing.md) for details and a todolist.
 
 ## Security
 
-If you discover any security related issues, please email kousha.ghodsizad@gmail.com instead of using the issue tracker.
+If you discover any security related issues, please email :author_email instead of using the issue tracker.
 
 ## Credits
 
-- [kousha][link-author]
+- [:author_name][link-author]
 - [All Contributors][link-contributors]
 
 ## License
 
-MIT. Please see the [license file](license.md) for more information.
+:license. Please see the [license file](license.md) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/:lc:vendor/:lc:package.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/:lc:vendor/:lc:package.svg?style=flat-square
