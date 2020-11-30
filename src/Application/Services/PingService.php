@@ -5,7 +5,8 @@ namespace :uc:vendor\:uc:package\Application\Services;
 use :uc:vendor\:uc:package\Domain\Contracts\Repositories\PingRepositoryContract;
 use :uc:vendor\:uc:package\Domain\Contracts\Services\PingServiceContract;
 use :uc:vendor\:uc:package\Domain\Models\Ping;
-use PingWriteException;
+use :uc:vendor\:uc:package\Domain\Exceptions\PingWriteException;
+use :uc:vendor\:uc:package\Infra\Mail\PingMail;
 
 /**
  * Class PingService

@@ -1,8 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use :uc:vendor\:uc:package\Infra\Http\Controllers\PingController;
-use :uc:vendor\:uc:package\Infra\Http\Middleware\IsPartner;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,9 +14,6 @@ use :uc:vendor\:uc:package\Infra\Http\Middleware\IsPartner;
 */
 
 Route::prefix(':lc:vendor/:lc:package/')
-    ->middleware(IsPartner::class)
     ->group(function () {
-        Route::group(function () {
 
-        });
     });

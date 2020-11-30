@@ -4,7 +4,7 @@ namespace :uc:vendor\:uc:package\Infra\Http\Controllers;
 
 use :uc:vendor\:uc:package\Domain\Contracts\Services\PingServiceContract;
 use :uc:vendor\:uc:package\Infra\Http\Requests\PingRequest;
-use PingWriteException;
+use :uc:vendor\:uc:package\Domain\Exceptions\PingWriteException;
 
 /**
  * Class PingController
@@ -20,6 +20,7 @@ class PingController extends BaseController
      */
     public function __construct(PingServiceContract $pingService)
     {
+        parent::__construct();
         $this->pingService = $pingService;
     }
 

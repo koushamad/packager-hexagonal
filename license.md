@@ -1,5 +1,5 @@
 # The license
 
-Copyright (c) :author_name <:author_email>
+Copyright (c) kousha <kousha.ghodsizad@gmail.com>
 
 ...Add your license text here...

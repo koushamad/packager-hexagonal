@@ -2,9 +2,11 @@
 
 namespace :uc:vendor\:uc:package;
 
+use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Support\ServiceProvider;
 use :uc:vendor\:uc:package\Application\Services\:uc:packageService;
 use :uc:vendor\:uc:package\Application\Services\PingService;
+use :uc:vendor\:uc:package\Infra\Console\Kernel;
 use :uc:vendor\:uc:package\Infra\Console\PingCommand;
 
 /**
@@ -20,8 +22,8 @@ class :uc:packageServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        $this->loadTranslationsFrom(__DIR__ . '/Infra/Resources/lang', ':lc:vendor');
-        $this->loadViewsFrom(__DIR__ . '/Infra/Resources/views', ':lc:vendor');
+        $this->loadTranslationsFrom(__DIR__ . '/Infra/Resources/lang', ':lc:package');
+        $this->loadViewsFrom(__DIR__ . '/Infra/Resources/views', ':lc:package');
         $this->loadMigrationsFrom(__DIR__ . '/Infra/Database/Migrations');
         $this->loadRoutesFrom(__DIR__ . '/Infra/Routes/api.php');
         $this->loadRoutesFrom(__DIR__ . '/Infra/Routes/web.php');
@@ -34,6 +36,11 @@ class :uc:packageServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->bootForConsole();
         }
+
+        // Attach Package Console Kernel
+        $this->app->booted(function () {
+            (new Kernel())->schedule(app(Schedule::class));
+        });
     }
 
     /**
@@ -52,6 +59,9 @@ class :uc:packageServiceProvider extends ServiceProvider
         $this->app->singleton(':lc:package', function ($app) {
             return new :uc:packageService($app->make(PingService::class));
         });
+
+        /** Redirect Exception To Package Handler */
+//        $this->app->singleton(ExceptionHandler::class, ExceptionHandlerContract::class);
     }
 
     /**

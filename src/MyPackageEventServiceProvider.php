@@ -6,6 +6,10 @@ use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvi
 use :uc:vendor\:uc:package\Application\Listeners\PingListener;
 use :uc:vendor\:uc:package\Domain\Events\PingEvent;
 
+/**
+ * Class :uc:packageEventServiceProvider
+ * @package :uc:vendor\:uc:package
+ */
 class :uc:packageEventServiceProvider extends ServiceProvider
 {
     protected $listen = [

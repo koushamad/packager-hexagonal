@@ -26,18 +26,18 @@
     },
     "autoload": {
         "psr-4": {
-            ":lc:vendor\\:uc:package\\": "src/"
+            ":uc:vendor\\:uc:package\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            ":lc:vendor\\:uc:package\\Tests\\": "tests/"
+            ":uc:vendor\\:uc:package\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                ":lc:vendor\\:uc:package\\:uc:packageServiceProvider"
+                ":uc:vendor\\:uc:package\\:uc:packageServiceProvider"
             ],
             "aliases": {
                 ":uc:package": ":uc:packageFacade"

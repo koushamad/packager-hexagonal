@@ -2,20 +2,14 @@
 
 namespace :uc:vendor\:uc:package\Infra\Mail;
 
-use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
-use Illuminate\Mail\Mailable;
-use Illuminate\Queue\SerializesModels;
 use :uc:vendor\:uc:package\Domain\Models\Ping;
 
 /**
  * Class PingMail
  * @package :uc:vendor\:uc:package\Infra\Mail
  */
-class PingMail extends Mailable
+class PingMail extends BaseMail
 {
-    use Queueable, SerializesModels;
-
     protected $ping;
 
     /**

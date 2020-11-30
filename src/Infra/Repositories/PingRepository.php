@@ -4,7 +4,7 @@ namespace :uc:vendor\:uc:package\Infra\Repositories;
 
 use :uc:vendor\:uc:package\Domain\Contracts\Repositories\PingRepositoryContract;
 use :uc:vendor\:uc:package\Domain\Models\Ping;
-use PingWriteException;
+use :uc:vendor\:uc:package\Domain\Exceptions\PingWriteException;
 
 /**
  * Class PingRepository

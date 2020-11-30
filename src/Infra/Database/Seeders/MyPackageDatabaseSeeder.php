@@ -13,6 +13,6 @@ class :uc:packageDatabaseSeeder extends Seeder
 {
     public function run()
     {
-        Ping::factory(1000)->create();
+        Ping::factory(10)->create();
     }
 }

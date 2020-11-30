@@ -2,13 +2,16 @@
 
 namespace :uc:vendor\:uc:package\Application\Services;
 
+use :uc:vendor\:uc:package\Domain\Contracts\Services\:uc:packageServiceContract;
 use :uc:vendor\:uc:package\Domain\Contracts\Services\PingServiceContract;
+use :uc:vendor\:uc:package\Domain\Exceptions\PingWriteException;
+use :uc:vendor\:uc:package\Domain\Models\Ping;
 
 /**
  * Class :uc:package
  * @package :uc:vendor\:uc:package\Application\RPC
  */
-class :uc:packageService
+class :uc:packageService implements :uc:packageServiceContract
 {
     private $pingService;
 
@@ -23,9 +26,11 @@ class :uc:packageService
 
     /**
      * @param string $ip
+     * @return Ping
+     * @throws PingWriteException
      */
-    public function ping(string $ip): void
+    public function ping(string $ip): Ping
     {
-        $this->pingService->ping($ip);
+        return $this->pingService->ping($ip);
     }
 }

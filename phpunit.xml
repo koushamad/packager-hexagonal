@@ -10,7 +10,7 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name=":lc:vendor :uc:package Test Suites">
+        <testsuite name=":uc:vendor :uc:package Test Suites">
             <directory suffix="Test.php">./tests/</directory>
         </testsuite>
     </testsuites>

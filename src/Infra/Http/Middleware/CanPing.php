@@ -5,10 +5,10 @@ namespace :uc:vendor\:uc:package\Infra\Http\Middleware;
 use Closure;
 
 /**
- * Class IsPartner
+ * Class CanPing
  * @package :uc:vendor\:uc:package\Infra\Http\Middleware
  */
-class IsPartner
+class CanPing
 {
     /**
      * @param $request

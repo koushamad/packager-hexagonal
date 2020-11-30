@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use :uc:vendor\:uc:package\Infra\Http\Controllers\PingController;
-use :uc:vendor\:uc:package\Infra\Http\Middleware\IsPartner;
+use :uc:vendor\:uc:package\Infra\Http\Middleware\CanPing;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,7 +16,7 @@ use :uc:vendor\:uc:package\Infra\Http\Middleware\IsPartner;
 */
 
 Route::prefix(':lc:vendor/:lc:package/api/')
-    ->middleware(IsPartner::class)
+    ->middleware(CanPing::class)
     ->group(function () {
         Route::prefix('v1/')
             ->group(function () {

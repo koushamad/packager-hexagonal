@@ -2,14 +2,13 @@
 
 namespace :uc:vendor\:uc:package\Infra\Console;
 
-use Illuminate\Console\Command;
 use :uc:vendor\:uc:package\Domain\Events\PingEvent;
 
 /**
  * Class PingCommand
  * @package :uc:vendor\:uc:package\Infra\Console
  */
-class PingCommand extends Command
+class PingCommand extends BaseCommand
 {
     /**
      * The name and signature of the console command.

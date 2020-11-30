@@ -2,7 +2,7 @@
 
 namespace :uc:vendor\:uc:package\Tests\Features\Console;
 
-use :uc:vendor\:uc:package\Tests\FeatureTestCase;
+use :uc:vendor\:uc:package\Tests\TestCase;
 use TiMacDonald\Log\LogFake;
 use Illuminate\Support\Facades\Log;
 
@@ -10,22 +10,34 @@ use Illuminate\Support\Facades\Log;
  * Class PingConsoleTest
  * @package :uc:vendor\:uc:package\Tests\Features\Console
  */
-class PingConsoleTest extends FeatureTestCase
+class PingConsoleTest extends TestCase
 {
+    public function construct(): void
+    {
+        // TODO: Implement construct() method.
+    }
+
+    public function destruct(): void
+    {
+        // TODO: Implement destruct() method.
+    }
+
     /**
      * @test
      */
     public function it_should_ping_ip()
     {
+        $ip = $this->faker->ipv4;
         $logs = [
-            'Subscribe Ping Event IP: 192.168.1.1',
+            'Subscribe Ping Event IP: '. $ip,
         ];
 
         Log::swap(new LogFake);
 
-        $this->artisan(':lc:package:ping', ['ip' => '192.168.1.1']);
+        $this->artisan(':lc:package:ping', ['ip' => $ip]);
 
-        $this->assertDatabaseHas('pings', ['ip' => '192.168.1.1']);
+        $this->assertDatabaseHas('pings', ['ip' => $ip]);
+
         Log::assertLogged('info', function ($message, $context) use ($logs) {
             return in_array($message, $logs);
         });

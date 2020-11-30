@@ -2,14 +2,10 @@
 
 namespace :uc:vendor\:uc:package\Domain\Contracts\Services;
 
-use :uc:vendor\:uc:package\Domain\Models\Ping;
 use :uc:vendor\:uc:package\Domain\Exceptions\PingWriteException;
+use :uc:vendor\:uc:package\Domain\Models\Ping;
 
-/**
- * Interface PingServiceContract
- * @package :uc:vendor\:uc:package\Domain\Service
- */
-interface PingServiceContract
+interface :uc:packageServiceContract
 {
     /**
      * @param string $ip
