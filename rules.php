@@ -5,7 +5,7 @@ return [
     'src/MyPackageAutoWireServiceProvider.php' => 'src/:uc:packageAutoWireServiceProvider.php',
     'src/MyPackageEventServiceProvider.php' => 'src/:uc:packageEventServiceProvider.php',
     'src/MyPackageServiceProvider.php' => 'src/:uc:packageServiceProvider.php',
-    'src/Application/Facades/MyPackageFacades.php' => 'src/Application/Facades/:uc:packageFacades.php',
+    'src/Application/Facades/MyPackageFacade.php' => 'src/Application/Facades/:uc:packageFacade.php',
     'src/Application/Services/MyPackageService.php' => 'src/Application/Services/:uc:packageService.php',
     'src/Domain/Config/mypackage.php' => 'src/Domain/Config/:lc:package.php',
     'src/Domain/Contracts/Services/MyPackageServiceContract.php' => 'src/Domain/Contracts/Services/:uc:packageServiceContract.php',
